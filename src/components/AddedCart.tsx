@@ -36,7 +36,7 @@ const AddedCart: React.FC = () => {
           cartItems.map(item => (
             <div key={item.id} className="w-full max-w-[26rem] bg-white shadow-lg rounded-sm p-4 flex flex-col gap-2">
               <div className="flex justify-center mb-2">
-                <img src={item.imageUrl} alt={item.name} className="object-cover w-full h-[200px] rounded-sm" />
+                <img src={`/src/assets/images/${item.imageUrl}`} alt={item.name} className="object-cover w-full h-[200px] rounded-sm" />
               </div>
               <div className="flex justify-between text-xl font-bold mb-2">
                 <div className="name">{item.name}</div>

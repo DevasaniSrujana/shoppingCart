@@ -29,7 +29,7 @@ const Cards: React.FC = () => {
           className="w-full max-w-[26rem] shadow-lg rounded-sm"
         >
           <div className="flex justify-center lg:h-[40vh] md:h-[20vh]">
-            <img src={cart.imageUrl} alt={cart.name} />
+            <img src={`/src/assets/images/${cart.imageUrl}`} alt={cart.name} />
           </div>
           <div className="flex text-xl font-bold justify-around m-2">
             <div className="name">{cart.name}</div>
